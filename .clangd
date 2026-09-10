@@ -1,0 +1,14 @@
+CompileFlags:
+  Add:
+    - -std=c++17
+    - -Wall
+    - -Wextra
+    - --target=x86_64-w64-windows-gnu
+    - -IC:/mingw64/include/c++/15.2.0
+    - -IC:/mingw64/include/c++/15.2.0/x86_64-w64-mingw32
+    - -IC:/mingw64/include/c++/15.2.0/backward
+    - -IC:/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include
+    - -IC:/mingw64/include
+    - -IC:/mingw64/x86_64-w64-mingw32/include
+    - -I.
+  Compiler: C:/mingw64/bin/g++.exe

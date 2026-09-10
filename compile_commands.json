@@ -1,0 +1,27 @@
+[
+  {
+    "directory": "c:/OneDrive (shlok8267@gmail)/OneDrive/Desktop/tuff/Student-Management-System",
+    "command": "C:/mingw64/bin/g++.exe -std=c++17 -Wall -Wextra -I. -c main.cpp -o main.o",
+    "file": "main.cpp"
+  },
+  {
+    "directory": "c:/OneDrive (shlok8267@gmail)/OneDrive/Desktop/tuff/Student-Management-System",
+    "command": "C:/mingw64/bin/g++.exe -std=c++17 -Wall -Wextra -I. -c Student.cpp -o Student.o",
+    "file": "Student.cpp"
+  },
+  {
+    "directory": "c:/OneDrive (shlok8267@gmail)/OneDrive/Desktop/tuff/Student-Management-System",
+    "command": "C:/mingw64/bin/g++.exe -std=c++17 -Wall -Wextra -I. -c StudentManager.cpp -o StudentManager.o",
+    "file": "StudentManager.cpp"
+  },
+  {
+    "directory": "c:/OneDrive (shlok8267@gmail)/OneDrive/Desktop/tuff/Student-Management-System",
+    "command": "C:/mingw64/bin/g++.exe -std=c++17 -Wall -Wextra -I. -c FileHandler.cpp -o FileHandler.o",
+    "file": "FileHandler.cpp"
+  },
+  {
+    "directory": "c:/OneDrive (shlok8267@gmail)/OneDrive/Desktop/tuff/Student-Management-System",
+    "command": "C:/mingw64/bin/g++.exe -std=c++17 -Wall -Wextra -I. -c Utils.cpp -o Utils.o",
+    "file": "Utils.cpp"
+  }
+]

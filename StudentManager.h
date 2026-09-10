@@ -1,29 +1,34 @@
-// Contains declarations for all funcs that operate on students
+// Contains declarations for all functions that operate on students
 
 #ifndef STUDENTMANAGER_H
 #define STUDENTMANAGER_H
 
-#include<vector>
-#include"Student.h"
+#include <string>
+#include <vector>
+#include "Student.h"
 
-Student* searchStudent(std::vector<Student>& students, int roll_number);
-
+// Search
+Student*       searchStudent(std::vector<Student>& students, int roll_number);
 const Student* searchStudent(const std::vector<Student>& students, int roll_number);
 
-bool compareByName (const Student &a, const Student &b);
-bool compareByMarks (const Student &a, const Student &b);
+// Comparators (used by sort)
+bool compareByName(const Student& a, const Student& b);
+bool compareByMarks(const Student& a, const Student& b);
 
+// Validation helpers
 bool isValidMarks(float marks);
-bool isRollNumberUnique(const std::vector<Student>& students,int roll);
+bool isRollNumberUnique(const std::vector<Student>& students, int roll);
 
-void sortByNameAscending (std::vector<Student>& students);
-void sortByMarksDescending (std::vector<Student>& students);
+// Sort
+void sortByNameAscending(std::vector<Student>& students);
+void sortByMarksDescending(std::vector<Student>& students);
 
+// Display
 void displayStudent(const Student& s);
 void displayStudents(const std::vector<Student>& students);
 
+// Mutate
 void addStudent(std::vector<Student>& students);
-
 void deleteStudent(std::vector<Student>& students, int roll_num);
 
-#endif
+#endif // STUDENTMANAGER_H

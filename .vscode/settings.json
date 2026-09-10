@@ -1,0 +1,7 @@
+{
+  "clangd.arguments": [
+    "--query-driver=C:\\mingw64\\bin\\g++.exe,C:\\mingw64\\bin\\gcc.exe,C:/mingw64/bin/g++.exe,C:/mingw64/bin/gcc.exe",
+    "--background-index",
+    "--header-insertion=never"
+  ]
+}
